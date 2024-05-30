@@ -1,0 +1,10 @@
+endpoint: "https://apps.hivestack.com/nirvana/api/v1"
+maintainer:
+  email: "prebid@hivestack.com"
+gvlVendorID: 626
+capabilities:
+  dooh:
+    mediaTypes:
+      - banner
+      - video
+      - audio

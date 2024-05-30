@@ -1,0 +1,14 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "title": "Hivestack Adapter Params",
+    "description": "A schema which validates params accepted by the Hivestack adapter",
+    "type": "object",
+    "properties": {
+        "unitUUID": {
+            "type": "string",
+            "description": "The unique unit UUID provided by Hivestack",
+	    "format": "uuid"
+        }
+    },
+    "required": ["unitUUID"]
+}
